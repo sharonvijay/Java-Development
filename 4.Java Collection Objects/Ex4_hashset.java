@@ -20,6 +20,9 @@ public class Ex4_hashset {
             System.out.println(i);
         }
 
+        System.out.println("Iterating HashSet using forEach method");
+        cars.forEach(e -> System.out.println(e));
+
         // Check If an Item Exists
         cars.contains("Mazda");
 
