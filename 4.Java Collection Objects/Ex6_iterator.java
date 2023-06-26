@@ -9,11 +9,11 @@ public class Ex6_iterator {
         numbers.add(2);
         numbers.add(23);
         Iterator<Integer> it = numbers.iterator();
-        // System.out.println("Looping");
-        // while (it.hasNext()) {
-        // Integer i = it.next();
-        // System.out.println(i);
-        // }
+        System.out.println("Looping");
+        while (it.hasNext()) {
+            Integer i = it.next();
+            System.out.println(i);
+        }
         System.out.println("Removing");
         while (it.hasNext()) {
             Integer i = it.next();

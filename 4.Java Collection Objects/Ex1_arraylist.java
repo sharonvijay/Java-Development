@@ -24,9 +24,8 @@ public class Ex1_arraylist {
         // Sorting
         Collections.sort(cars);
         System.out.println("Sorting");
-        for (String i : cars) {
-            System.out.println(i);
-        }
+
+        cars.forEach(e -> System.out.println(e));
 
         // Access an Item
         cars.get(0);
