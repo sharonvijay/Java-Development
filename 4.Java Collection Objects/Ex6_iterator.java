@@ -15,6 +15,7 @@ public class Ex6_iterator {
             System.out.println(i);
         }
         System.out.println("Removing");
+        it = numbers.iterator();
         while (it.hasNext()) {
             Integer i = it.next();
             if (i < 10) {
